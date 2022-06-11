@@ -12,6 +12,8 @@ body {
 }
 
 nav {
+  height: 84;
+  width: auto;
   position: sticky;
   top: 0;
   border: 1px red solid;
@@ -23,6 +25,18 @@ ul {
   align-items: center;
   border: 1px red solid;
   height: 3rem;
+}
+.item {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.icons {
+  margin-right: 0;
+}
+
+.icon {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navElement {
