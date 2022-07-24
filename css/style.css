@@ -1,7 +1,7 @@
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
@@ -50,11 +50,12 @@ div {
   border: 1px rgb(51, 24, 88) solid;
 }
 .glass {
-  height: 200px;
+  position: absolute;
+  height: 100px;
   width: 200px;
   text-align: center;
-  margin: auto;
-
+  margin: 100px;
+  float: right;
   background: linear-gradient
     (135 deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
   backdrop-filter: blur(10px);
@@ -62,4 +63,19 @@ div {
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.image {
+  width: 400px;
+  border: 3px solid purple;
+  padding: 15px;
+  margin: 40px;
+}
+.container {
+  display: flex;
+}
+.column
+{
+  flex: 33.33%;
+  padding: 5px;
 }
