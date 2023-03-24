@@ -9,7 +9,7 @@ body {
 	min-height: 200vh;
 	font-family: sans-serif;
 	font-size: 16px;
-	background: url(./img/simple-pattern-wavy-lines_53876-63044.webp);
+	background: url("./img/simple-pattern-wavy-lines_53876-63044.webp");
 }
 
 nav {
